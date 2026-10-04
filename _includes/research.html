@@ -74,17 +74,22 @@
     <ol class="publications">
       <li class="publication">
         <p class="publication-title" id="fourier-title">
-          <a href="documents/A_note_on_mechanistic_mean_estimation_for_a_trained_wide_MLP_with_polynomial_activations.pdf">A note on mechanistic mean estimation for
+          <a href="documents/A_note_on_mechanistic_mean_estimation_for_a_trained_wide_MLP_with_polynomial_activations.pdf"> (Draft) A note on mechanistic mean estimation for
              trained wide MLPs with polynomial activations</a>.
         </p>
         <details class="publication-abstract">
           <summary aria-labelledby="fourier-abstract-label fourier-title"><span id="fourier-abstract-label">Description</span></summary>
-          <p>We construct a counterexample to single-frequency Fourier alignment for a ReLU neuron trained
-            on modular addition. This gives a negative answer to a question raised in <a href="https://github.com/lionellevine/MAIS/tree/main/papers/P3">
-              MAIS-60 </a>. 
+          <p> We give a mechanistic algorithm that competes with Monte Carlo sampling for mean estimation
+            in wide multilayer perceptrons after a finite number of online SGD training steps. The network is initialized
+            with Gaussian weights and trained on fresh Gaussian inputs. Our starting point is the mean and cumulant-
+            propagation framework of <div Wu="" et="" al.,="" 2026=""></div> for untrained random networks. We show how the structure exposed
+            and written by training can be recorded causally and propagated through the estimator, yielding a train-and-
+            explain analogue of their sampling-competitive approach. For fixed training horizon, we obtain quantitative
+            error and runtime guarantees.</a>. 
                </p>
         </details>
       </li>
+      </ol>
     <ol class="publications">
       <li class="publication">
         <p class="publication-title" id="fourier-title">
