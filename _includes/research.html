@@ -74,18 +74,20 @@
     <ol class="publications">
       <li class="publication">
         <p class="publication-title" id="fourier-title">
-          <a href="documents/A_note_on_mechanistic_mean_estimation_for_a_trained_wide_MLP_with_polynomial_activations.pdf"> (Draft) A note on mechanistic mean estimation for
-             trained wide MLPs with polynomial activations</a>.
+          <a href="documents/A_note_on_mechanistic_mean_estimation_for_a_trained_wide_MLP_with_polynomial_activations.pdf"> A note on mechanistic mean estimation for
+             trained wide MLPs with polynomial activations (Draft)</a>.
         </p>
         <details class="publication-abstract">
           <summary aria-labelledby="fourier-abstract-label fourier-title"><span id="fourier-abstract-label">Description</span></summary>
           <p> We give a mechanistic algorithm that competes with Monte Carlo sampling for mean estimation
             in wide multilayer perceptrons after a finite number of online SGD training steps. The network is initialized
             with Gaussian weights and trained on fresh Gaussian inputs. Our starting point is the mean and cumulant-
-            propagation framework of <div Wu="" et="" al.,="" 2026=""></div> for untrained random networks. We show how the structure exposed
+            propagation framework of [Wu et al. 2026](https://arxiv.org/abs/2605.05179) for untrained random networks. We show how the structure exposed
             and written by training can be recorded causally and propagated through the estimator, yielding a train-and-
             explain analogue of their sampling-competitive approach. For fixed training horizon, we obtain quantitative
-            error and runtime guarantees.</a>. 
+            error and runtime guarantees. We also obtain a nonquantitative growing-horizon result for a training horizon, although explicit quantitative control of such growing horizons remains open. This is a
+            preliminary note: we give the full algorithm together with proof sketches and heuristic explanations of the
+            main claims, rather than complete proofs.</a>. 
                </p>
         </details>
       </li>
