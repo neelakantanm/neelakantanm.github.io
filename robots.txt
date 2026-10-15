@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://neelakantanm.github.io/sitemap.xml
-Sitemap: https://neelakantanm.github.io/Blog/sitemap.xml
